@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOTS Studio | Indie Game Dev</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <canvas id="dotsCanvas"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">DOTS<span class="highlight">.</span>STUDIO</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#prototypes">Prototypes</a></li>
+            <li><a href="#team">Team</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="glitch-wrapper">
+                <h1 class="glitch" data-text="CONNECTING PLAYERS">CONNECTING PLAYERS</h1>
+            </div>
+            <p class="subtitle">Tech. Data. AI. Gaming.</p>
+            <a href="#prototypes" class="cta-button">Play Prototypes</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="glass-panel">
+            <h2><span class="highlight">/</span> ABOUT US</h2>
+            <p>
+                We are a collective of developers and designers exploring the intersection of 
+                <strong>Artificial Intelligence</strong> and interactive entertainment. 
+                Born from the "Tech, Data & AI in Gaming" initiative, DOTS Studio builds 
+                experiences that connect the dots between raw data and player emotion.
+            </p>
+        </section>
+
+        <section id="featured">
+            <div class="section-header">
+                <h2><span class="highlight">/</span> PROJECT: ZERO</h2>
+                <span class="badge">IN DEVELOPMENT</span>
+            </div>
+            <div class="featured-card">
+                <div class="featured-content">
+                    <h3>The Final Build</h3>
+                    <p>Our flagship title combining all our research into one cohesive experience. Currently in alpha testing.</p>
+                    <button class="secondary-btn" disabled>Coming Soon</button>
+                </div>
+                <div class="featured-visual">
+                    <div class="scanline"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="prototypes">
+            <h2><span class="highlight">/</span> PROTOTYPES</h2>
+            <div class="grid-3">
+                <article class="card">
+                    <div class="card-image placeholder-p1"></div>
+                    <div class="card-content">
+                        <h3>Neon Runner</h3>
+                        <span class="tag">Phaser</span>
+                        <p>A high-speed endless runner utilizing procedural generation.</p>
+                        <a href="#" class="link-text">Launch Prototype &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image placeholder-p2"></div>
+                    <div class="card-content">
+                        <h3>Data Breaker</h3>
+                        <span class="tag">p5.js</span>
+                        <p>An abstract puzzle game visualized through raw data arrays.</p>
+                        <a href="#" class="link-text">Launch Prototype &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image placeholder-p3"></div>
+                    <div class="card-content">
+                        <h3>AI Pong</h3>
+                        <span class="tag">ML5.js</span>
+                        <p>Classic arcade action against a neural network opponent.</p>
+                        <a href="#" class="link-text">Launch Prototype &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="team">
+            <h2><span class="highlight">/</span> THE NODES</h2>
+            <div class="grid-3">
+                <div class="team-member">
+                    <div class="avatar"></div>
+                    <h3>Member 01</h3>
+                    <p>Lead Developer</p>
+                </div>
+                <div class="team-member">
+                    <div class="avatar"></div>
+                    <h3>Member 02</h3>
+                    <p>Game Designer</p>
+                </div>
+                <div class="team-member">
+                    <div class="avatar"></div>
+                    <h3>Member 03</h3>
+                    <p>Data Specialist</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 DOTS Studio. All systems nominal.</p>
+        <div class="socials">
+            <a href="https://github.com/ohadswissa" target="_blank">GitHub</a>
+            <a href="#">Discord</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
