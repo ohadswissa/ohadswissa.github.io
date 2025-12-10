@@ -67,9 +67,14 @@ ul { list-style: none; }
 }
 
 .logo {
-    font-family: var(--font-head);
-    font-weight: 700;
-    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 80px; /* Adjust this number to make it bigger/smaller */
+    width: auto;  /* Keeps the logo from stretching */
+    max-width: 250px; /* Ensures it doesn't get too wide on small screens */
 }
 
 .nav-links { display: flex; gap: 30px; }
