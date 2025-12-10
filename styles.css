@@ -246,3 +246,22 @@ footer {
     .navbar { flex-direction: column; gap: 15px; }
     .featured-card { grid-template-columns: 1fr; }
 }
+/* --- Logo animation: move a bit to the right and get bigger --- */
+.animated-logo {
+    animation: logoSlideAndGrow 2.2s ease-out forwards;
+    transform-origin: center center;
+}
+
+@keyframes logoSlideAndGrow {
+    0% {
+        transform: translateX(0) scale(1);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(40px) scale(1.25);
+        opacity: 1;
+    }
+}
