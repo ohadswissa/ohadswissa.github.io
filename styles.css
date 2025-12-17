@@ -230,6 +230,7 @@ section {
     margin: 0 auto 20px;
     border: 2px solid var(--accent);
     object-fit: cover; /* Prevents squeezing */
+    object-position: 50% 20%; /* Focuses slightly higher to avoid cutting heads */
 }
 
 /* --- Footer --- */
