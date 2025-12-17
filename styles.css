@@ -72,10 +72,12 @@ ul { list-style: none; }
 }
 
 .logo-image {
-    height: 80px; /* Adjust this number to make it bigger/smaller */
-    width: auto;  /* Keeps the logo from stretching */
-    max-width: 250px; /* Ensures it doesn't get too wide on small screens */
+    height: 60px;   /* Perfect navbar size */
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
 }
+
 
 .nav-links { display: flex; gap: 30px; }
 .nav-links a:hover { color: var(--accent); text-shadow: 0 0 10px var(--accent); }
